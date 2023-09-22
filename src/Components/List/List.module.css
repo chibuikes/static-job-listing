@@ -1,0 +1,496 @@
+
+
+@media(max-width:817px){
+    .sec{
+        background: white ;
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        width:80vw;
+        height:wrap;
+        margin: 40px auto;
+        box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+        padding:20px 20px ;
+    }
+    .sect{
+        background: white ;
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        width:80vw;
+        height:wrap;
+        margin: 40px auto;
+        box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+        padding:20px 20px ;
+        border-left:3px solid hsl(180, 29%, 45%) ;
+    }
+    .img{
+        height:60px;
+        width:60px;
+        margin-right: 10px;
+        position: absolute;
+        top:-30px;
+        left:30px;
+    }
+  
+    
+    .div1{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        border-bottom: 1px solid hsl(180, 8%, 52%);
+        margin-bottom: 20px;
+    }
+    .div2{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        width:250px;
+    }
+  
+    .p1{
+    color:hsl(180, 29%, 50%);
+    font-weight: bold;
+    }
+  
+    .p2{
+     background-color: hsl(180, 29%, 47%);
+     color:white;
+     font-weight: bold;
+     border-radius: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 14px;
+     padding: 2px 9px;
+     padding-right: 11px;
+     margin:0px 5px;
+     width:35px
+    }
+    .p3{
+    background:hsl(180, 14%, 20%) ;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+     font-size: 12px;
+     padding: 2px 9px;
+     height:20px;
+     padding-bottom: 0px;
+     text-transform: uppercase;
+    
+    }
+    .div3{
+        color:hsl(180, 14%, 32%);
+        font-weight: bold;
+    }
+    .div3:hover{
+        color: hsl(180, 29%, 50%);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .div4{
+        display:flex;
+        justify-content: space-between;
+        color:hsl(180, 8%, 52%);
+        font-size:11px;
+        width:250px;
+    }
+    .flex{
+        display:flex;
+        justify-content: flex-start;
+  
+    }
+    .tabs{
+        color:hsl(180, 29%, 56%);
+        background:hsl(180, 52%, 95%);
+        font-weight: bold;
+        margin: 0px 0px;
+        margin-right: 3px;
+        padding: 10px 7px;
+        font-size: 13px;
+    }
+    .tabs:hover{
+        color:hsl(180, 52%, 96%);
+        background: hsl(180, 29%, 50%);
+        font-weight: bold;
+        margin: 0px 0px;
+        margin-right: 3px;
+        padding: 10px 7px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .hide{
+        visibility: hidden;
+    }
+
+}
+@media(max-width:416px){
+    
+    .sec{
+        background: white ;
+        display:flex;
+        flex-direction: column;
+ position: relative;
+        justify-content: space-between;
+        width:80vw;
+        height:wrap;
+        margin: 40px auto;
+        box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+
+        padding:20px 20px ;
+    }
+    .sect{
+        background: white ;
+        display:flex;
+        flex-direction: column;
+ position: relative;
+        justify-content: space-between;
+        width:80vw;
+
+        height:wrap;
+        margin: 40px auto;
+        box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+        padding:20px 20px ;
+        border-left:3px solid hsl(180, 29%, 45%) ;
+    }
+    .img{
+        height:60px;
+        width:60px;
+        margin-right: 10px;
+        position: absolute;
+        top:-30px;
+        left:30px;
+    }
+  
+    
+    .div1{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        border-bottom: 1px solid hsl(180, 8%, 52%);
+        margin-bottom: 20px;
+    }
+    .div2{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        width:250px;
+    
+    }
+
+    .p1{
+    color:hsl(180, 29%, 50%);
+    font-weight: bold;
+    }
+    .p2{
+     background-color: hsl(180, 29%, 47%);
+     color:white;
+     font-weight: bold;
+     border-radius: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 14px;
+     padding: 2px 9px;
+     padding-right: 11px;
+     margin:0px 5px;
+     width:35px
+    }
+    .p3{
+    background:hsl(180, 14%, 20%) ;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+     font-size: 12px;
+     padding: 2px 9px;
+     height:20px;
+     padding-bottom: 0px;
+     text-transform: uppercase;
+    
+    }
+    .div3{
+        color:hsl(180, 14%, 32%);
+        font-weight: bold;
+    }
+    .div3:hover{
+        color: hsl(180, 29%, 50%);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .div4{
+        display:flex;
+        justify-content: space-between;
+        color:hsl(180, 8%, 52%);
+        font-size:11px;
+        width:250px;
+    }
+    .flex{
+        display:grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 45% 45%;
+        grid-gap:10px;
+
+    }
+    .tabs{
+        color:hsl(180, 29%, 56%);
+        background:hsl(180, 52%, 95%);
+        font-weight: bold;
+        margin: 0px 0px;
+        margin-right: 3px;
+        padding: 10px 7px;
+        font-size: 13px;
+    }
+    .tabs:hover{
+        color:hsl(180, 52%, 96%);
+        background: hsl(180, 29%, 50%);
+        font-weight: bold;
+        margin: 0px 0px;
+        margin-right: 3px;
+        padding: 10px 7px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    }
+@media(min-width:817px){
+    
+    .sec{
+        background: white ;
+        display:flex;
+        justify-content: space-between;
+        width:85vw;
+        height:70px;
+        margin: 20px 7vw;
+        box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+        padding:20px 20px ;
+    }
+    .sect{
+        background: white ;
+        display:flex;
+        justify-content: space-between;
+        width:85vw;
+        height:70px;
+        margin: 20px 7vw;
+        box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+        padding:20px 20px ;
+        border-left:3px solid hsl(180, 29%, 45%) ;
+    }
+    .main{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .div1{
+        display:flex;
+        flex-direction: column;
+    }
+    .div2{
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+    
+    }
+    .img{
+        height:75px;
+        width:75px;
+        margin-right: 10px;
+    }
+    .p1{
+    color:hsl(180, 29%, 50%);
+    font-weight: bold;
+    }
+    .p2{
+     background-color: hsl(180, 29%, 47%);
+     color:white;
+     font-weight: bold;
+     border-radius: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 12px;
+     padding: 2px 9px;
+     padding-right: 11px;
+     margin:0px 5px;
+     width:35px
+    }
+    .p3{
+    background:hsl(180, 14%, 20%) ;
+    color:white;
+    font-weight: bold;
+    border-radius: 20px;
+     font-size: 10px;
+     padding: 2px 9px;
+     height:20px;
+     padding-bottom: 0px;
+     text-transform: uppercase;
+    
+    }
+    .div3{
+        color:hsl(180, 14%, 32%);
+        font-weight: bold;
+    }
+    .div3:hover{
+        color: hsl(180, 29%, 50%);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .div4{
+        display:flex;
+        justify-content: space-between;
+        color:hsl(180, 8%, 52%);
+        font-size:10px;
+    }
+    .flex{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .tabs{
+        color:hsl(180, 29%, 56%);
+        background:hsl(180, 52%, 95%);
+        font-weight: bold;
+        margin: 0px 6px;
+        padding: 10px;
+        font-size: 11px;
+    }
+    .tabs:hover{
+        color:hsl(180, 52%, 96%);
+        background: hsl(180, 29%, 50%);
+        font-weight: bold;
+        margin: 0px 6px;
+        padding: 10px;
+        font-size: 11px;
+        cursor: pointer;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    }
+@media(min-width:930px){
+    
+.sec{
+    background: white ;
+    display:flex;
+    justify-content: space-between;
+    width:75vw;
+    height:70px;
+    margin: 20px 12vw;
+    box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+    padding:20px 20px ;
+}
+.sect{
+    background: white ;
+    display:flex;
+    justify-content: space-between;
+    width:75vw;
+    height:70px;
+    margin: 20px 12vw;
+    box-shadow: 7px 7px 7px hsl(180, 8%, 92%);
+    padding:20px 20px ;
+    border-left:3px solid hsl(180, 29%, 45%) ;
+}
+.main{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.div1{
+    display:flex;
+    flex-direction: column;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+.img{
+    height:80px;
+    width:80px;
+    margin-right: 10px;
+}
+.p1{
+color:hsl(180, 29%, 50%);
+font-weight: bold;
+}
+.p2{
+ background-color: hsl(180, 29%, 47%);
+ color:white;
+ font-weight: bold;
+ border-radius: 20px;
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 14px;
+ padding: 2px 9px;
+ padding-right: 11px;
+ margin:0px 5px;
+ width:35px
+}
+.p3{
+background:hsl(180, 14%, 20%) ;
+color:white;
+font-weight: bold;
+border-radius: 20px;
+ font-size: 12px;
+ padding: 2px 9px;
+ height:20px;
+ padding-bottom: 0px;
+ text-transform: uppercase;
+
+}
+.div3{
+    color:hsl(180, 14%, 32%);
+    font-weight: bold;
+}
+.div3:hover{
+    color: hsl(180, 29%, 50%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.div4{
+    display:flex;
+    justify-content: space-between;
+    color:hsl(180, 8%, 52%);
+    font-size:11px;
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tabs{
+    color:hsl(180, 29%, 56%);
+    background:hsl(180, 52%, 95%);
+    font-weight: bold;
+    margin: 0px 6px;
+    padding: 10px;
+    font-size: 13px;
+}
+.tabs:hover{
+    color:hsl(180, 52%, 96%);
+    background: hsl(180, 29%, 50%);
+    font-weight: bold;
+    margin: 0px 6px;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.hide{
+    visibility: hidden;
+}
+}
+/*
+- Desaturated Dark Cyan: hsl(180, 29%, 50%)
+
+### Neutral
+
+- Light Grayish Cyan (Background): hsl(180, 52%, 96%)
+- Light Grayish Cyan (Filter Tablets): hsl(180, 31%, 95%)
+- Dark Grayish Cyan: hsl(180, 8%, 52%)
+- Very Dark Grayish Cyan: hsl(180, 14%, 20%)
+*/
